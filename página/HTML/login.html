@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="JS/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="../CSS/login.css">
+    
+    <title>Tienda de Cervezas</title>
+</head>
+<body>
+    
+    <form action="../PHP/login.php" method="POST">
+        <div class="container">
+            <label for="user"><b>Usuario</b></label>
+            <input type="TEXT" placeholder="Ingresar Usuario" name="user" required>
+      
+            <label for="pass"><b>Contraseña</b></label>
+            <input type="PASSWORD" placeholder="Ingresa tu Contraseña" name="pass" required>
+              
+            <button type="SUBMIT">Login</button>
+          </div>
+    </form>
+</body>
