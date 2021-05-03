@@ -3,16 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Agregar Usuario</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="" />
+    <link rel='stylesheet' href='../CSS/estiloAbm.css'>   
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo" /> 
 </head>
 <body>
     <form action="../PHP/agregarUsuario.php" method="POST">
         <div class="container">
 
-            <label for="id"><b>Id</b></label>
-            <input type="TEXT" placeholder="" name="id" disabled>
+            <label for="id" id="id"><b>Id</b></label>
+            <input type="TEXT" id="id" placeholder="" name="id" disabled>
 
             <label for="nombre"><b>Nombre</b></label>
             <input type="TEXT" placeholder="Ingresar Nombre" name="nombre" required>

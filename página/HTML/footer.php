@@ -1,3 +1,3 @@
 <footer>
-        <p>Hecho por Martorano Gonzalo y Piromalli Luca</p>
+        <p>Hecho por Martorano Gonzalo</p>
 </footer>
