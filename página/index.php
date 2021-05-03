@@ -12,9 +12,8 @@
     <?php include "HTML/header.php" ?>
 
     <main>
-        <section id="cervezas">
-            
-        </section>
+        <div id="cervezas" class="row">
+        </div>
     </main>
 
     <script src="JS/jquery.js"></script>
