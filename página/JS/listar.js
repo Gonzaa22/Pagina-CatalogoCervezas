@@ -27,7 +27,11 @@ function pintar(marca,tipo,litros,precio, imagen){
         </div>\
         <div class="detalle">\
             <h2>'+marca+'</h2>\
-            <p>'+tipo+' '+litros+'L - $'+precio+' </p>\
+            <ul>\
+                <li>'+tipo+'</li>\
+                <li>'+litros+' Litros</li>\
+                <li>$'+precio+'</li>\
+            </ul>\
         </div>\
     </article>\
     ';
